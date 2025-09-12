@@ -1,0 +1,9 @@
+Scenario,Category,Impact_kgCO2eq
+Green,Chemicals,0.9305941104000001
+Green,Water,0.09636
+Green,Electricity,0.932768
+Green,Feedstock,-4.20984
+Grey,Chemicals,0.9305941104000001
+Grey,Water,0.09636
+Grey,Electricity,0.932768
+Grey,Feedstock,5.519568
