@@ -7,7 +7,7 @@ Outputs:
 - green_grey_contributions.csv (table used for plotting)
 
 Edit the INVENTORY_PATH / *_IMPACT_FACTORS_PATH values if needed.
-"""
+"""""
 
 from __future__ import annotations
 import pandas as pd
