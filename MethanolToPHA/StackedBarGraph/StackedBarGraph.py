@@ -22,11 +22,11 @@ from matplotlib.patches import Patch
 # 1) File paths (EDIT ME if paths change)
 # ----------------------
 INVENTORY_PATH = \
-    "/Users/cooperzvegintzov/Library/Mobile Documents/com~apple~CloudDocs/Documents/ChakraTech/MethanolToPHA/Inventory.csv"
+    "/Users/cooperzvegintzov/Library/Mobile Documents/com~apple~CloudDocs/Documents/ChakraTech/LCA/MethanolToPHA/Inventory.csv"
 GREY_IMPACT_FACTORS_PATH = \
-    "/Users/cooperzvegintzov/Library/Mobile Documents/com~apple~CloudDocs/Documents/ChakraTech/MethanolToPHA/GreyImpactfactors.csv"
+    "/Users/cooperzvegintzov/Library/Mobile Documents/com~apple~CloudDocs/Documents/ChakraTech/LCA/MethanolToPHA/GreyImpactfactors.csv"
 GREEN_IMPACT_FACTORS_PATH = \
-    "/Users/cooperzvegintzov/Library/Mobile Documents/com~apple~CloudDocs/Documents/ChakraTech/MethanolToPHA/GreenImpactfactors.csv"
+    "/Users/cooperzvegintzov/Library/Mobile Documents/com~apple~CloudDocs/Documents/ChakraTech/LCA/MethanolToPHA/GreenImpactfactors.csv"
 
 # Output directory (defaults to sibling folder)
 OUTDIR = Path("../StackedBarGraph")
