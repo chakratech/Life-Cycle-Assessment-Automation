@@ -1,0 +1,164 @@
+flow,amount,unit,context/step
+life cycle assessment (LCA) studies,,,ABSTRACT
+life cycle inventory (LCI) modeling,,,ABSTRACT
+foreground flow data,,,ABSTRACT
+background data matching,,,ABSTRACT
+mechanistic methods,,,ABSTRACT
+process simulation,,,ABSTRACT
+machine learning (ML) methods,,,ABSTRACT
+similarity-based selection methods,,,ABSTRACT
+large language models (LLMs),,,ABSTRACT
+inventory data curation,,,ABSTRACT
+diverse data sources,,,ABSTRACT
+multimodal analytical capacity,,,ABSTRACT
+two grand challenges,,,ABSTRACT
+life cycle assessment,,,keywords
+life cycle inventory,,,keywords
+missing data,,,keywords
+background data mapping,,,keywords
+large language models,,,keywords
+automation,,,keywords
+scalability,,,keywords
+life cycle inventory (LCI),,,data gap
+swift advancements in technology,,,areas like biochemicals and biomaterials
+high-quality inventory data,,,evaluating environmental impacts
+deep eutectic solvents (DES),,,new technological applications
+energy use,,,production of lignocellulosic materials
+LCA studies,,,DES compounds
+foreground inventory data,,,part of the LCI model
+background inventory data,,,part of the LCI model
+electricity use,,,real-world activities
+waste treatment,,,real-world activities
+data for LCI modeling,,,initial data collection for lifecycle inventory
+foreground flow data,,,challenges in information collection
+background data,,,challenges in information processing
+heat consumption,,,missing foreground flow data
+process simulation,,,mechanistic approach for estimating energy consumption
+material flows,,,mechanistic approach for estimating waste flows
+unit processes,,,background data matching
+foreground flow,,,background data matching
+NaOH production,,,what unit process should represent the production of NaOH
+inventory data,,,missing data estimation using machine learning
+attribute values,,,describing unit processes in a multidimensional space
+Euclidean distance,,,determined by attribute values to measure similarity between unit processes
+simulation data,,,training machine learning models to improve generalizability
+missing inventory data,,,LCI modeling
+training data,sufficient amount,,ML model training
+synthetic data,mass production,,certain domains
+training data,,,data validation
+diverse and large-size data sources,,,root causes of limitations
+capacity to conduct multimodal analysis,,,root causes of limitations
+information,,,LLMs pretraining
+domain knowledge,enormous,,LLMs pretraining
+applications potential,remarkable,,research and development
+domain knowledge,wide variety,,LLMs applications in LCI modeling
+product carbon footprint,,,AutoPCF calculation framework
+process,,,AutoPCF calculation framework
+activities,,,AutoPCF calculation framework
+emission factors,,,AutoPCF calculation framework
+PCE,,,AutoPCF calculation framework
+cost reduction potential,significant,,AutoPCF calculation
+time reduction potential,significant,,AutoPCF calculation
+common knowledge,,,AutoPCF advantages
+CO2 emissions,20.5,kg,production
+Water usage,150,m3,manufacturing
+AutoPCF,,,PCF calculation
+RAG algorithms,,,enhancing generalization potential of AutoPCF
+Flamingo algorithm,,,automating semantic matching between product description and EIF
+LLMs,,,positioned to perform multimodal analyses
+tabulated data,,,used for LCI modeling
+text,,,used for LCI modeling
+images,,,used for LCI modeling
+term frequency-inverse document frequency (TF-IDF),,,keyword extraction
+machine learning-based methods,,,recognizing specific entities or relationships within a sentence using trained classifiers
+traditional natural language processing (NLP) based methods,,,Part-of-Speech (PoS) tagging and parsing
+NLP methods vs LLMs,,,extract domain knowledge from literature
+traditional NLP methods,,,"series of steps such as tokenization, POS tagging, syntactic parsing, and the use of handcrafted rules or statistical models to extract information"
+LLMs,,,"Trained on vast amounts of data, can understand context, semantics, and nuanced language patterns without the need for explicit feature extraction or rule-based programming. Process unstructured text directly, handling diverse formats and writing styles found in literature. Allows potentially extract domain knowledge more efficiently and accurately, even from complex and heterogeneous documents like PDFs"
+material quantity,,null,summarize the material quantity involved in an industrial process
+Scrap iron,15.2,kg,Raw material extraction
+Electricity,67.8,MJ,Manufacturing process
+Water,,m3,Packaging
+inventory data,,,create missing inventory data by fusing information from technoeconomic analysis studies
+system boundary diagram,,,"create from querying process flow diagram, technology description text, and operational conditions from tables"
+"energy, material, and waste flows",,,estimation using reasoning capability of LLMs
+inventory data validation,,,identify description of assumptions behind values in inventory table
+meta-data of the study,,,extract geographical location and year of study for assigning values for pedigree matrix
+difference between study year and background data creation year,,,calculate to assign value for Temporal correlation indicator
+LCI modeling,,,Discussing the versatile applications of LLMs in LCI modeling
+multimodal information,,,Discussing the applications of LLMs in multimodal information extraction and curation
+system boundary completion,,,Discussing the applications of LLMs in system boundary completion
+foreground inventory flows,,,Discussing the applications of LLMs in creating missing values of foreground inventory flows
+background data,,,Discussing the applications of LLMs in background data matching
+domain knowledge,,,Discussing the substantial and diverse amount of domain knowledge in pretrained LLMs
+files,,,"Key step 1 - curating a list of files (documents, spreadsheets, images, etc.) which contains the information of interest"
+information extraction,,,Key step 2 - Automating the information extraction using LLMs
+knowledge base,,,Key step 3 - Preparing the knowledge base by processing the files to store the information locally or in a cloud-based vector database
+knowledge base,,,Discussing updating of the knowledge base of interest
+script,,,Key step 4 - A script customizable for users to ask LCI-related questions
+RAG,,,Discussing the use of RAG algorithms to retrieve relevant information
+knowledge base,,,Discussing generating a response by retrieving relevant chunks of embedded information from the knowledge base
+Amazon AWS services,,,Illustrating a workflow using Amazon AWS services
+PDF files,,,Discussing storing and managing input PDF files using AWS services
+inventory data,,,user query
+relevant information,,,retrieved from vector database
+semantic meaning,,,interpretation by LLMs
+relationship,,,with respect to query
+search results,,,integration
+electricity,,,synthesis step of making final product B
+Intermediate chemical A,,,given synthesis step of making final product B
+Material A,,kg,Production
+Material B,100,kg,Transportation
+Energy C,500,MJ,Use
+inventory data creation,,,LLM-assisted LCI modeling methods
+representation of environmental impacts,,,LLM-assisted LCI modeling methods
+climate change impacts,,,mitigating climate change impacts
+Inventory tables,,,Groundtruth data for missing inventory creation
+Text descriptions,,,Groundtruth data for missing inventory creation
+Flow-provider pairs,,,Groundtruth data for background data mapping
+messages,,,general
+instructions,,,general
+CO2 emissions,,kg,Production
+Water consumption,250,m3,Manufacturing
+postprocessing enhancement,,,text processing
+retrieved text chunks,,,query completion
+environmental impacts,,,query completion
+pretrained LLM,,,model fine-tuning
+data set creation,,,domain-specific fine-tuning task
+Life Cycle Assessment,,,"Emerging Approaches, Challenges and Opportunities"
+Bioplastics Feedstocks,,N/A,Life Cycle Inventory Data Quality Issues
+material/energy flow,,,Bringing a Life Cycle Perspective to Emerging Technology Development
+material/energy flow,,,not specified
+Life Cycle Assessment,,,Early Stage of Development
+Nanostructured Materials,,,Case Study
+Energy consumption,,MJ,Activated Carbon Production
+Greenhouse gas emissions,,kg CO2-equiv,Activated Carbon Production
+Estimation of Unit Process Data,,,Life Cycle Assessment
+CO2 emissions,,kg,Production
+Water usage,54.2,m3,Manufacturing process
+Energy consumption,780,MJ,Packaging
+Uncertainty factors,,,Pedigree Matrix in Ecoinvent
+Life Cycle Sustainability Assessment,,,Core Ontology for Modeling
+material,,,Industrial Ecology in Integrated Assessment Models
+Life Cycle Assessments,,,"Opportunities, Challenges, and Risks"
+Ouyang,56,,
+Wu,,,
+Jiang,,,
+Almeida,,,
+Wainwright,,,
+Mishkin,,,
+Zhang,,,
+Agarwal,,,
+Slama,,,
+Ray,,,
+Schulman,,,
+Hilton,,,
+Kelton,,,
+Miller,,,
+Simens,,,
+Askell,,,
+Welinder,,,
+paper,,,publication
+carbon dioxide emissions,,kg,production
+water consumption,500,m3,manufacturing
+energy consumption,300,MJ,transportation
