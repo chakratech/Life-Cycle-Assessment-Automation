@@ -1,6 +1,6 @@
 import openai
 
-client = openai.OpenAI(api_key="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")
+client = openai.OpenAI(api_key="API_KEY_HERE")
 
 table_text = """
 Process Step        Electricity (kWh)    Steam (ton)    Water (ton)
