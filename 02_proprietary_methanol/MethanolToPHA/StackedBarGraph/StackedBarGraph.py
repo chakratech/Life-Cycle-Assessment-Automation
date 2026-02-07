@@ -29,7 +29,7 @@ GREEN_IMPACT_FACTORS_PATH = \
     "/Users/cooperzvegintzov/Library/Mobile Documents/com~apple~CloudDocs/Documents/ChakraTech/LCA/MethanolToPHA/GreenImpactfactors.csv"
 
 # Output directory (defaults to sibling folder)
-OUTDIR = Path("../StackedBarGraph")
+OUTDIR = Path("")
 
 # ----------------------
 # 2) Helpers copied from your existing workflow
