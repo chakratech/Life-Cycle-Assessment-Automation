@@ -53,4 +53,4 @@ The next stage of development focuses on migrating from static Excel-based model
     ```
 
 ---
-*Developed during an internship at ChakraTech (Jan 2026 - Present).*
+*Developed during an internship at ChakraTech (June 2025 - Present).*
