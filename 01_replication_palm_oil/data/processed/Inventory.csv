@@ -1,0 +1,57 @@
+Raw Material,Value,Unit
+Palm Oil,1020,kg/t-PHA
+,,
+Yeast,13.7,kg/t-PHA
+Glucose,2,kg/t-PHA
+Sodium Phosphate,3,kg/t-PHA
+Citric Acid,31.5,kg/t-PHA
+Ammonia liquid,14.8,kg/t-PHA
+Sodium Hydroxide,125.4,kg/t-PHA
+Ammonia Sulphate,12.4,kg/t-PHA
+Potassium Phosphate,4.8,kg/t-PHA
+Enzyme,2.4,kg/t-PHA
+Hydrogen Peroxide,62,kg/t-PHA
+SDS,63,kg/t-PHA
+Activate Carbon,1.4,kg/t-PHA
+Sulfuric Acid,0.4,kg/t-PHA
+,,
+Electricity consumption,,
+Fermentation,706.2,kWh/t-PHA
+Extraction,508.1,kWh/t-PHA
+Pelleting,1162.5,kWh/t-PHA
+,,
+Steam,,
+Fermentation,1.3,Ton/t-PHA
+Extraction,2.7,Ton/t-PHA
+Pelleting,0.04,Ton/t-PHA
+,,
+Water,,
+Fermentation,5.5,Ton/t-PHA
+Pelleting,42.5,Ton/t-PHA
+,0,Ton/t-PHA
+Waste Water Effluents,,
+Flow rate,35.6,m^3/t-PHA
+COD,15000,mg/L
+TN,750,mg/L
+TP,35,mg/L
+SS,6000,mg/L
+,,
+Waste Gas Effluents,,
+Ammonia,0.123,kg-gas/t-PHA
+Sulfuric Acid mist,0.014,kg-gas/t-PHA
+Particle Matter,0.029,kg-gas/t-PHA
+VOCS,0.081,kg-gas/t-PHA
+SO2,0.0000003,kg-gas/t-PHA
+NOx,0.056,kg-gas/t-PHA
+H2S,0.00111,kg-gas/t-PHA
+CO2,455,kg-gas/t-PHA
+,,
+Transportation,,
+land,1000,km
+sea,4000,km
+,,
+Consumption and EOL,,
+Incineration,13%,%
+Landfill,30%,%
+Recycling (Composting),19%,%
+Uncontrolled,38%,%
