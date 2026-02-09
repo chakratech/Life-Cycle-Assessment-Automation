@@ -38,19 +38,5 @@ The next stage of development focuses on migrating from static Excel-based model
 * **Platform:** Migration to **Brightway2**.
 * **Data:** Integration with open-source databases (USLCI) or licensed datasets (EcoInvent) to replace manual impact factor aggregation.
 
-## Usage
-1.  **Data Ingestion:**
-    Ensure raw LCI data is present in the `data/raw` directory (Excel format).
-2.  **Processing:**
-    Run the extraction script to convert Excel models to JSON:
-    ```bash
-    python src/extract_lci.py
-    ```
-3.  **Visualization:**
-    Generate impact reports and prospective comparison graphs:
-    ```bash
-    python src/visualization.py
-    ```
-
 ---
 *Developed during an internship at ChakraTech (June 2025 - Present).*
