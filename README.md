@@ -23,7 +23,7 @@ Originally developed to validate circular CO₂ economy models, this toolkit has
 * **Methodology:** Performed prospective LCA modeling to quantify how improvements in **conversion rates** and **strain yields** could reduce Global Warming Potential (GWP) over time.
 * **Tech Stack:** Python scripts ingest the prospective scenarios from JSON to generate comparative impact charts.
 
-### Phase 4: Policy Integration (Current)
+### Phase 4: Policy Integration
 **Collaborators:** UCSD School of Global Policy and Strategy.
 * **Objective:** Integrating policy levers (carbon pricing, subsidies, mandates) into the prospective LCA to understand the economic and environmental viability of Methanol-to-PHA alongside other feedstocks.
 
@@ -39,4 +39,4 @@ The next stage of development focuses on migrating from static Excel-based model
 * **Data:** Integration with open-source databases (USLCI) or licensed datasets (EcoInvent) to replace manual impact factor aggregation.
 
 ---
-*Developed during an internship at ChakraTech (June 2025 - Present).*
+*Developed during an internship at ChakraTech (June 2025 - February 2026).*
